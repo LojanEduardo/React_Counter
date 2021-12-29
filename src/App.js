@@ -26,14 +26,14 @@ function App() {
   }
 
   return (
-    <>
+    <div className="centralizador">
       <h1>Contador: {count}</h1>
 
       <button 
       onClick={handlePlusClick} style={{backgroundColor: colorPlus}} className="mais">+</button>
 
       <button onClick={handleMinusClick} style={{backgroundColor: colorMinus}} className="menos">-</button>
-    </>
+    </div>
   );
 }
 
